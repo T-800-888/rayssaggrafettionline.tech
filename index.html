@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Rayssa Gaievicz Grafetti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <h1>Rayssa Gaievicz Grafetti</h1><br>
+            <h2><p>Estudante de Ciência da Computação na PUCPR</p><br></h2>
+            <div class="social-links">
+                <h3>
+                    <p>GitHub: <a href="https://github.com/T-800-888" target="_blank">@T-800-888</a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/r_grafetti/profilecard/?igsh=NnpjYzRuMTU4bnNo" target="_blank">@r_grafetti</a></p>
+                    <p>Email: rayssagrafetti@gmail.com</p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/rayssa-g-grafetti-622107301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Rayssa G. Grafetti</a></p><br>
+                </h3>
+            </div>
+            <button onclick="openAulas()">Minhas Aulas</button>
+            <button onclick="window.open('https://drive.google.com/drive/folders/1dlyuzWgLxCmto55aICicTvxAwSM0lSW7?usp=drive_link')">Meus Certificados</button> <!-- Link para a pasta do Drive -->
+        </div>
+    </header>
+
+    <main id="main-content">
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Carrega automaticamente a aba "Minhas Aulas" quando a página é carregada
+        document.addEventListener("DOMContentLoaded", function() {
+            openAulas();
+        });
+    </script>
+</body>
+</html>

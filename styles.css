@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1d1b1b;
+    color: #fff;
+}
+
+header {
+    background-image: url('fundo1.jpeg');
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.social-links p {
+    font-size: 0.9em;
+}
+
+.download-button:hover {
+    background-color: #000000;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #291811;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.main-section {
+    background-image: url('fundo2.jpeg');
+    padding: 25px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #291811;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+}
+.card:hover {
+    background-color: #000000;
+}
+a{
+    color:#fff
+}
